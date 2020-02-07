@@ -10,7 +10,7 @@ import { showResultScreen } from "./_showResultScreen.js"
 import { yes, no, calculate } from "./_calculation.js"
 import { opacity } from "./_unclickable.js"
 import { yourAnswerYes, yourAnswerNo, yourAnswer1, yourAnswer2, yourAnswer3 } from "./_yourAnswerIs.js"
-import {seeResultBtn, showResult } from "./_insideResultScreen"
+import {seeResultBtn, showResult } from "./_insideResultScreen.js"
 import { again, reload, showAgain } from "./_doAgain.js"
 
 

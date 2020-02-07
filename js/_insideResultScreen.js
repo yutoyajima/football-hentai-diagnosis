@@ -1,3 +1,5 @@
+import { calcResult } from "./_calculation.js"
+
 const theResult = document.querySelector(".the-result")
 const whatToDo = document.querySelector(".what-to-do")
 const seeResultBtn = document.querySelector(".see-result")
