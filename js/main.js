@@ -1,11 +1,3 @@
-// import { resultScreen, showResultScreen } from "./_showResultScreen.js"
-// import { yes, no, calcResult, calculate } from "./_calculation.js"
-// import { questions, answer, quesNum, answerNum, opacity } from "./_unclickable.js"
-// import { yourAnswer, yourAnswerNum, yourAnswerYes, yourAnswerNo, yourAnswer1, yourAnswer2, yourAnswer3 } from "./_yourAnswerIs.js"
-// import { theResult, whatToDo, seeResultBtn, showResult } from "./_insideResultScreen"
-// import { again, reload, showAgain } from "./_doAgain.js"
-
-
 import { showResultScreen } from "./_showResultScreen.js"
 import { yes, no, calculate } from "./_calculation.js"
 import { opacity } from "./_unclickable.js"
