@@ -1,0 +1,14 @@
+.flex {
+   // height: 100vh;
+   h2 {
+      font-size: 2.4rem;
+      margin-top: 60px;
+      text-align: center;
+      color: #5a5a5a;
+   }
+   .wrap {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-evenly;
+   }
+}

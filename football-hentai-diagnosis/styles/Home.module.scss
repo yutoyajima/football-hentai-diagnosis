@@ -1,0 +1,33 @@
+.bg {
+   height: 100vh;
+   background-image: url(../public/images/File_001.png);
+   background-size: cover;
+   background-position-y: 80%;
+}
+
+.titles {
+   color: #fff;
+   text-align: center;
+   text-shadow: 0 0 1rem #000;
+   .welcome {
+      font-size: 2rem;
+      font-weight: bold;
+   }
+   .title {
+      font-size: 3rem;
+      span {
+         color: rgb(231, 5, 252);
+      }
+   }
+   .intro {
+      margin-top: 20px;
+   }
+}
+
+.start {
+   display:block; 
+   width: 300px;
+   margin: 60px auto 0;
+   background: linear-gradient(to right, rgb(0, 119, 255), rgb(0, 238, 255));
+   box-shadow: 0 0 1rem #000;
+}

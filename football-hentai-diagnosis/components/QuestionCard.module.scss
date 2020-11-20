@@ -1,0 +1,38 @@
+
+
+
+.container {
+   margin-top: 50px;
+}
+
+.questionText {
+   font-size: 2rem;
+   font-weight: bold;
+}
+.tips {
+   font-size: 1rem;
+   margin: 0;
+}
+
+.questionText, .tips {
+   color: #5a5a5a;
+   text-align: center;
+}
+
+.btns {
+   margin-top: 50px;
+}
+.choice {
+   display:block; 
+   width: 300px;
+   margin: 0px auto;
+   background: linear-gradient(to right, rgb(0, 119, 255), rgb(0, 238, 255));
+   box-shadow: 0 0.5rem 0.2rem rgba(0, 0, 0, 0.253);
+   border: 0.05rem solid rgb(0, 119, 255);
+   &:hover, &:active, &:focus {
+      outline: none !important;
+   }
+   &:nth-child(2), &:nth-child(3) {
+      margin-top: 20px;
+   }
+}
