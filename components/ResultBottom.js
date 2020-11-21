@@ -4,7 +4,7 @@ import styles from "./ResultBottom.module.scss"
 
 const ResultBottom = ({ result }) => {
    
-   const tweet = `https://twitter.com/intent/tweet?text=私は・・・「${result.youAre}」でした!%0d`
+   const tweet = `https://twitter.com/intent/tweet?text=私は・・・「${result.youAre}」でした!%0d&hashtags=サッカー変態度診断&url=https://football-hentai-diagnosis.netlify.app/%0d%0d`
 
    return(
       <>
