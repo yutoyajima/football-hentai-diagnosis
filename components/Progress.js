@@ -16,5 +16,3 @@ const Progress = ({ index, percent }) => {
 }
 
 export default Progress
-
-// className={styles.}

@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react"
 import { useRouter } from 'next/router';
-import { results } from "../Questions/resultsData"
+import { results } from "../data/resultsData"
 import YourResult from './../components/YourResult';
 import ProgCircle from "../components/ProgCircle";
 import { Container } from "react-bootstrap";
 import styles from "../styles/Result.module.scss"
 import ResultBottom from './../components/ResultBottom';
+import Head from "next/head"
 
 const Result = () => {
 
@@ -32,14 +33,19 @@ const Result = () => {
    
 
    return (
-      <Container className={styles.flex}>
-         <h2>診断結果</h2>
-         <div className={styles.wrap}> 
-            <ProgCircle deg={deg} />
-            <YourResult result={result} renderResult={renderResult} />
-         </div>
-         <ResultBottom result={result} />
-      </Container>
+      <>
+         <Head>
+            <title>サッカー変態度診断 | 診断結果</title>
+         </Head>
+         <Container className={styles.flex}>
+            <h2>診断結果</h2>
+            <div className={styles.wrap}> 
+               <ProgCircle deg={deg} />
+               <YourResult result={result} renderResult={renderResult} />
+            </div>
+            <ResultBottom result={result} />
+         </Container>
+      </>
    )
 }
 

@@ -32,7 +32,3 @@ const QuestionCard = ({ question, answer }) => {
 }
 
 export default QuestionCard
-
-
-
-//className={styles.}
